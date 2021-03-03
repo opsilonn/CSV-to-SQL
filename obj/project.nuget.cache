@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hi2S7IWvdQcUjxdo0enFLjLpH4kFrm6lZ8MkRL1ChIKLTgnl3i9wqv+8zypR1WPt13pzSYYYHusOBFv8ZJKQgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hugue\\Desktop\\CSV-to-SQL\\CSV-to-SQL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hugue\\.nuget\\packages\\csvhelper\\25.0.0\\csvhelper.25.0.0.nupkg.sha512",
+    "C:\\Users\\hugue\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\hugue\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

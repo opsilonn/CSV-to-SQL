@@ -1,0 +1,16 @@
+C:\Users\hugue\Desktop\CSV-to-SQL\bin\Debug\netcoreapp3.1\CSV-to-SQL.exe
+C:\Users\hugue\Desktop\CSV-to-SQL\bin\Debug\netcoreapp3.1\CSV-to-SQL.deps.json
+C:\Users\hugue\Desktop\CSV-to-SQL\bin\Debug\netcoreapp3.1\CSV-to-SQL.runtimeconfig.json
+C:\Users\hugue\Desktop\CSV-to-SQL\bin\Debug\netcoreapp3.1\CSV-to-SQL.runtimeconfig.dev.json
+C:\Users\hugue\Desktop\CSV-to-SQL\bin\Debug\netcoreapp3.1\CSV-to-SQL.dll
+C:\Users\hugue\Desktop\CSV-to-SQL\bin\Debug\netcoreapp3.1\CSV-to-SQL.pdb
+C:\Users\hugue\Desktop\CSV-to-SQL\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\hugue\Desktop\CSV-to-SQL\obj\Debug\netcoreapp3.1\CSV-to-SQL.csprojAssemblyReference.cache
+C:\Users\hugue\Desktop\CSV-to-SQL\obj\Debug\netcoreapp3.1\CSV-to-SQL.AssemblyInfoInputs.cache
+C:\Users\hugue\Desktop\CSV-to-SQL\obj\Debug\netcoreapp3.1\CSV-to-SQL.AssemblyInfo.cs
+C:\Users\hugue\Desktop\CSV-to-SQL\obj\Debug\netcoreapp3.1\CSV-to-SQL.csproj.CoreCompileInputs.cache
+C:\Users\hugue\Desktop\CSV-to-SQL\obj\Debug\netcoreapp3.1\CSV-to-SQL.csproj.CopyComplete
+C:\Users\hugue\Desktop\CSV-to-SQL\obj\Debug\netcoreapp3.1\CSV-to-SQL.dll
+C:\Users\hugue\Desktop\CSV-to-SQL\obj\Debug\netcoreapp3.1\CSV-to-SQL.pdb
+C:\Users\hugue\Desktop\CSV-to-SQL\obj\Debug\netcoreapp3.1\CSV-to-SQL.genruntimeconfig.cache
+C:\Users\hugue\Desktop\CSV-to-SQL\bin\Debug\netcoreapp3.1\CsvHelper.dll

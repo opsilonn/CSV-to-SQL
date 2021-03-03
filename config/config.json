@@ -1,0 +1,71 @@
+{
+	"tableName": "Pokemon",
+	"fields": [
+		{
+			"nameInCSV": "Name",
+			"nameInSQL": "name",
+			"isText": true,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "Type 1",
+			"nameInSQL": "type1_id",
+			"isText": true,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "Type 2",
+			"nameInSQL": "type2_id",
+			"isText": true,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "Generation",
+			"nameInSQL": "generation_id",
+			"isText": false,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "Legendary",
+			"nameInSQL": "legendary",
+			"isText": false,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "HP",
+			"nameInSQL": "hp",
+			"isText": false,
+			"defaultValue": "0"
+		},
+		{
+			"nameInCSV": "Attack",
+			"nameInSQL": "attack",
+			"isText": false,
+			"defaultValue": "0"
+		},
+		{
+			"nameInCSV": "Defense",
+			"nameInSQL": "defense",
+			"isText": false,
+			"defaultValue": "0"
+		},
+		{
+			"nameInCSV": "Sp. Atk",
+			"nameInSQL": "specialattack",
+			"isText": false,
+			"defaultValue": "0"
+		},
+		{
+			"nameInCSV": "Sp. Def",
+			"nameInSQL": "specialdefense",
+			"isText": false,
+			"defaultValue": "0"
+		},
+		{
+			"nameInCSV": "Speed",
+			"nameInSQL": "speed",
+			"isText": false,
+			"defaultValue": "0"
+		}
+	]
+}
