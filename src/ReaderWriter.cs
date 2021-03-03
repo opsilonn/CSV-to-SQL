@@ -139,14 +139,17 @@ namespace CSV_to_SQL
                 // We fill the line
                 properties.fields.ForEach(field =>
                 {
+                    // We get the value to write : the one found, or if empty, the default one 
+                    string value = (dictionary[field.nameInCSV].Length != 0) ? dictionary[field.nameInCSV] : field.defaultValue;
+
                     // We add the field
                     if (field.isText)
                     {
-                        line += "`" + dictionary[field.nameInCSV] + "`";
+                        line += "`" + value + "`";
                     }
                     else
                     {
-                        line += dictionary[field.nameInCSV];
+                        line += value;
                     }
 
                     // If the field is not the last, we add a ','
