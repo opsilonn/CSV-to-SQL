@@ -3,7 +3,7 @@
 	"fields": [
 		{
 			"nameInCSV": "Name",
-			"nameInSQL": "name",
+			"nameInSQL": "pokemonname",
 			"isText": true,
 			"defaultValue": ""
 		},

@@ -131,10 +131,14 @@ namespace CSV_to_SQL
             // We add the header line
             lines.Add(header);
 
+            // We initialize a counter
+            int cptId = 1;
+
+            // For each line to add
             dictionaries.ForEach(dictionary =>
             {
-                // We declare a line
-                string line = "(";
+                // We declare a line with the id
+                string line = "(" + cptId++ + ",";
 
                 // We fill the line
                 properties.fields.ForEach(field =>
@@ -142,10 +146,14 @@ namespace CSV_to_SQL
                     // We get the value to write : the one found, or if empty, the default one 
                     string value = (dictionary[field.nameInCSV].Length != 0) ? dictionary[field.nameInCSV] : field.defaultValue;
 
+                    // We duplicate each character : '
+                    // So that the code won't crash
+                    value = value.Replace("'", "''");
+
                     // We add the field
                     if (field.isText)
                     {
-                        line += "`" + value + "`";
+                        line += "'" + value + "'";
                     }
                     else
                     {
