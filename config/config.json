@@ -2,68 +2,140 @@
 	"tableName": "Pokemon",
 	"fields": [
 		{
-			"nameInCSV": "Name",
-			"nameInSQL": "pokemonname",
+			"nameInCSV": "id",
+			"nameInSQL": "id",
+			"isText": false,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "pokedex_number",
+			"nameInSQL": "pokedexnumber",
+			"isText": false,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "name",
+			"nameInSQL": "nameEnglish",
 			"isText": true,
 			"defaultValue": ""
 		},
 		{
-			"nameInCSV": "Type 1",
-			"nameInSQL": "type1_id",
+			"nameInCSV": "german_name",
+			"nameInSQL": "nameGerman",
 			"isText": true,
 			"defaultValue": ""
 		},
 		{
-			"nameInCSV": "Type 2",
-			"nameInSQL": "type2_id",
+			"nameInCSV": "japanese_name",
+			"nameInSQL": "nameJapanese",
 			"isText": true,
 			"defaultValue": ""
 		},
 		{
-			"nameInCSV": "Generation",
+			"nameInCSV": "generation",
 			"nameInSQL": "generation_id",
 			"isText": false,
 			"defaultValue": ""
 		},
 		{
-			"nameInCSV": "Legendary",
-			"nameInSQL": "legendary",
+			"nameInCSV": "status",
+			"nameInSQL": "status",
+			"isText": true,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "species",
+			"nameInSQL": "species",
+			"isText": true,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "type_1",
+			"nameInSQL": "type1_id",
 			"isText": false,
 			"defaultValue": ""
 		},
 		{
-			"nameInCSV": "HP",
+			"nameInCSV": "type_2",
+			"nameInSQL": "type2_id",
+			"isText": false,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "height_m",
+			"nameInSQL": "height",
+			"isText": false,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "weight_kg",
+			"nameInSQL": "weight",
+			"isText": false,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "hp",
 			"nameInSQL": "hp",
 			"isText": false,
 			"defaultValue": "0"
 		},
 		{
-			"nameInCSV": "Attack",
+			"nameInCSV": "attack",
 			"nameInSQL": "attack",
 			"isText": false,
 			"defaultValue": "0"
 		},
 		{
-			"nameInCSV": "Defense",
+			"nameInCSV": "defense",
 			"nameInSQL": "defense",
 			"isText": false,
 			"defaultValue": "0"
 		},
 		{
-			"nameInCSV": "Sp. Atk",
-			"nameInSQL": "specialattack",
+			"nameInCSV": "sp_attack",
+			"nameInSQL": "spAttack",
 			"isText": false,
 			"defaultValue": "0"
 		},
 		{
-			"nameInCSV": "Sp. Def",
-			"nameInSQL": "specialdefense",
+			"nameInCSV": "sp_defense",
+			"nameInSQL": "spDefense",
 			"isText": false,
 			"defaultValue": "0"
 		},
 		{
-			"nameInCSV": "Speed",
+			"nameInCSV": "speed",
 			"nameInSQL": "speed",
+			"isText": false,
+			"defaultValue": "0"
+		},
+		{
+			"nameInCSV": "catch_rate",
+			"nameInSQL": "catchRate",
+			"isText": false,
+			"defaultValue": "0"
+		},
+		{
+			"nameInCSV": "base_friendship",
+			"nameInSQL": "baseFriendship",
+			"isText": false,
+			"defaultValue": "0"
+		},
+		{
+			"nameInCSV": "base_experience",
+			"nameInSQL": "baseExperience",
+			"isText": false,
+			"defaultValue": "0"
+		},
+		{
+			"nameInCSV": "growth_rate",
+			"nameInSQL": "growthRate",
+			"isText": true,
+			"defaultValue": ""
+		},
+		{
+			"nameInCSV": "percentage_male",
+			"nameInSQL": "percentageMale",
 			"isText": false,
 			"defaultValue": "0"
 		}

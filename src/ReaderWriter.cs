@@ -131,14 +131,11 @@ namespace CSV_to_SQL
             // We add the header line
             lines.Add(header);
 
-            // We initialize a counter
-            int cptId = 1;
-
             // For each line to add
             dictionaries.ForEach(dictionary =>
             {
                 // We declare a line with the id
-                string line = "(" + cptId++ + ",";
+                string line = "(";
 
                 // We fill the line
                 properties.fields.ForEach(field =>
