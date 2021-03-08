@@ -2,7 +2,7 @@
 
 ## What's my purpose ?
 
-This is a fairly simple projectthat takes a CSV input file, and produces a SQL output file given some indications.
+This is a fairly simple project that takes a CSV input file, and produces a SQL output file given some indications.
 
 
 ## How do I configure it ?
